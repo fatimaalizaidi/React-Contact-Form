@@ -1,0 +1,27 @@
+.topmenu{
+    display: flex;
+}
+
+.topmenu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 150px;
+    width: 200px;
+}
+
+.logo img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+

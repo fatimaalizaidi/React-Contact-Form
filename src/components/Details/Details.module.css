@@ -1,0 +1,39 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+
+    
+}
+
+
+.inputbox{
+    position: relative;
+ 
+}
+.inputbox input {
+    padding: 15px;
+    outline: none;
+}
+.inputbox label{
+    position: absolute; 
+    top: -15px;
+    left: 10px;
+    background-color: white;
+    padding: 5px 10px;
+
+  
+}
+
+
+.textbox {
+    max-height:200px ;
+    min-height: 100px;
+    padding: 25px 20px;
+    outline: none;
+}
+
+
+
+
